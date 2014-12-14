@@ -4,10 +4,20 @@ body{
 	padding-left: 15%;
 	background-image: url("images/petite-page.png");
   background-repeat: repeat;
+	border: solid 1px white;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+	margin: 0px;
+	padding: 0px;
 }
 
 div#main-container {
 	background-color: white;
+	border: solid 1px black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 header a#deft {
@@ -28,11 +38,8 @@ div.clear {
 
 div#search-zone {
 	margin-right: 15px;
-}
-
-div#search-zone {
 	float: right;
-	padding-top: 5px;
+	padding-top: 45px;
 	padding-right: 10px;
 }
 
@@ -50,6 +57,7 @@ img#logo-loupe {
 
 button {
 	border-radius: 50%;
+	cursor: pointer;
 }
 
 nav {
@@ -59,7 +67,6 @@ nav {
 nav ul
 {
     list-style-type: none;
-		padding: 0px;
 		padding-left: 23px;
 }
 
@@ -123,7 +130,6 @@ footer ul li {
 }
 
 footer ul li.links {
-	padding: 0px;
 	float: right;
 	padding-right: 20px;
 }
@@ -134,7 +140,6 @@ li#registered-tm, footer ul li.links a {
 
 ul li.fil-ariane {
 	list-style-type: none;
-	padding: 0px;
 	float: left;
 	margin-left: -10px;
 }
@@ -180,6 +185,9 @@ ul#social-networks li a {
 
 div#news-box {
 	border: solid 1px grey;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 p#header, div#footer {
@@ -190,8 +198,6 @@ p#header, div#footer {
 
 div#news-box p#header {
 	text-align: center;
-	padding: 0px;
-	margin: 0px;
 }
 
 div#footer {
@@ -209,7 +215,6 @@ div#footer button {
 div#news-box p.news-item {
 	font-size: 16px;
 	padding: 5px;
-	margin: 0px;
 }
 
 div#news-box div#footer span#pages-count {
