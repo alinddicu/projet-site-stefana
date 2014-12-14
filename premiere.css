@@ -93,3 +93,34 @@ nav ul li a.nav-link:hover {
 	display: block;
 	width: 200px;
 }
+
+footer {
+	border: solid 1px black;
+	background-color: rgb(37,42,71);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+li#registered-tm {
+	float: left;
+	padding-right: 20px;
+}
+
+footer {
+	height: 50px;
+}
+
+footer ul li {
+	list-style-type: none;
+}
+
+footer ul li.links {
+	padding: 0px;
+	float: right;
+	padding-right: 20px;
+}
+
+li#registered-tm, footer ul li.links a {
+	color: white;
+}
