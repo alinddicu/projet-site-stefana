@@ -27,12 +27,16 @@ div.clear {
 }
 
 div#search-zone {
+	margin-right: 15px;
+}
+
+div#search-zone {
 	float: right;
 	padding-top: 5px;
 	padding-right: 10px;
 }
 
-div#search-zone input#field {
+input {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -44,7 +48,7 @@ img#logo-loupe {
 	height: 10px;
 }
 
-div#search-zone button#button {
+button {
 	border-radius: 50%;
 }
 
@@ -102,11 +106,12 @@ footer {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	margin: 20px;
 }
 
 li#registered-tm {
 	float: left;
-	padding-right: 20px;
+	margin-left: -13px;
 }
 
 footer {
@@ -125,4 +130,88 @@ footer ul li.links {
 
 li#registered-tm, footer ul li.links a {
 	color: white;
+}
+
+ul li.fil-ariane {
+	list-style-type: none;
+	padding: 0px;
+	float: left;
+	margin-left: -10px;
+}
+
+ul li.fil-ariane a, ul li.fil-ariane a:hover {
+	color: rgb(159,26,40);
+}
+
+ul li.fil-ariane a {
+	text-decoration: underline;
+}
+
+ul li.fil-ariane a:hover {
+	text-decoration: none;
+}
+
+div#content {
+	float: left;
+	margin-left: 30px;
+	width: 600px;
+}
+
+div#news {
+	float: right;
+	margin-right: 20px;
+	width: 300px;
+}
+
+div#info p {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+ul#social-networks li {
+	list-style-type: none;
+	padding-right: 15px;
+	float: left;
+}
+
+ul#social-networks li a {
+	text-decoration: none;
+}
+
+div#news-box {
+	border: solid 1px grey;
+}
+
+p#header, div#footer {
+	font-size: 30px;
+	color: white;
+	background-color: grey;
+}
+
+div#news-box p#header {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+div#footer {
+	text-align: right;
+	padding-bottom: 5px;
+	padding-right: 5px;
+}
+
+div#footer button {
+	border: solid 1px white;
+	height: 28px;
+	width: 28px;
+}
+
+div#news-box p.news-item {
+	font-size: 16px;
+	padding: 5px;
+	margin: 0px;
+}
+
+div#news-box div#footer span#pages-count {
+	font-size: 16px;
 }

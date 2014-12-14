@@ -9,7 +9,7 @@
    <body>
       <div id="main-container">
          <header>
-            <a id="deft" href="lien accueil"><img id="logo" src="images/logo.jpg" alt="logo" /></a>
+            <a id="deft" href="#"><img id="logo" src="images/logo.jpg" alt="logo" /></a>
             <h1 id="slogan">DÉfi Fouille de Textes</h1>
             <div id="search-zone">
                <input id="field" placeholder="SEARCH" />
@@ -75,23 +75,55 @@
             </ul>
          </nav>
          <div class="clear"></div>
-         <aside>
-            <div id=info>
-               <p>Tenez-vous au courant de nos dernières nouvelles:</p>
-               <form method="post" action="lien" enctype="application/x-www-form-urlencoded" name="info">
-                  <input name="mail" type="text" size="50" placeholder="Votre adresse mail">
-               </form>
-            </div>
-         </aside>
+         <ul>
+           <li class="fil-ariane"><a href="#">Accueil<a></li>
+         </ul>
+         <div class="clear"></div>
+         <br/>
+         <div id="content">
+
+         </div>
+         <div id="news">
+           <aside>
+              <div id=info>
+                 <p>Tenez-vous au courant de nos dernières nouvelles</p>
+                 <form id="info" method="post" action="#" enctype="application/x-www-form-urlencoded">
+                    <input name="mail" type="text" size="38" placeholder="Votre adresse mail">
+                 </form>
+              </div>
+              <ul id="social-networks">
+                <li><a href="#"><img src="images/facebook.png"></img></a></li>
+                <li><a href="#"><img src="images/twitter.png"></img></a></li>
+                <li><a href="#"><img src="images/rss.png"></img></a></li>
+                <li><a href="#"><img src="images/3-boules.png"></img></a></li>
+              </ul>
+              <div class="clear"></div>
+              <br/>
+              <div id="news-box">
+                <p id="header">Actualités</p>
+                <p class="news-item"><strong>12/03/2014</strong> maman va au marché</p>
+                <div id="footer">
+                  <button id="previous">&#9664</button>
+                  <span id="pages-count">1/1</span>
+                  <button id="next">&#9658</button>
+                </div>
+              <div>
+           </aside>
+         </div>
+         <div class="clear"></div>
+         <br/>
+         <!--
+         -->
          <footer>
            <ul>
-             <li id="registered-tm">R 2014 DEFT</li>
+             <li id="registered-tm">&reg; 2014 DEFT</li>
              <li class="links"><a href="#">Plan du site</a></li>
              <li class="links"><a href="#">FAQ</a></li>
              <li class="links"><a href="#">Contacts</a></li>
            </ul>
          </footer>
          <div class="clear"></div>
+         <br/>
       </div>
    </body>
 </html>
