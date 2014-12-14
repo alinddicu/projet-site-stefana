@@ -1,34 +1,42 @@
 body{
 	width: 960px;
-	padding-left: 12%;
+	padding-top: 75px;
+	padding-left: 15%;
+	background-image: url("images/petite-page.png");
+  background-repeat: repeat;
+}
+
+div#main-container {
+	background-color: white;
 }
 
 header a#deft {
 	float: left;
-	padding-top: 0px;
 }
 
 header h1#slogan {
 	color: rgb(159,26,40);
 	font-size: 64px;
-	padding-top: 50px;
+	padding-top: 100px;
 	text-align: center;
 }
 
 div.clear {
+	/*reset du float pour les élements HTML en dessous du div sur laquelle on applique cette classe*/
 	clear: both;
 }
 
 div#search-zone {
 	float: right;
-	padding-top: 35px;
+	padding-top: 5px;
+	padding-right: 10px;
 }
 
 div#search-zone input#field {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	border:solid 1px black;
+	border: solid 1px black;
 }
 
 img#logo-loupe {
@@ -38,4 +46,50 @@ img#logo-loupe {
 
 div#search-zone button#button {
 	border-radius: 50%;
+}
+
+nav {
+	text-align: center;
+}
+
+nav ul
+{
+    list-style-type: none;
+		padding: 0px;
+		padding-left: 20px;
+}
+
+nav ul li
+{
+	float: left;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+nav ul li a.nav-link {
+	text-decoration: none;
+	color: white;
+	background-color: rgb(159,26,40);
+	border: solid 1px white;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 20px;
+	display: block;
+	width: 200px;
+}
+
+nav ul li a.nav-link:hover {
+	text-decoration: none;
+	color: rgb(159,26,40);
+	background-color: white;
+	border: solid 1px rgb(159,26,40);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 20px;
+	display: block;
+	width: 200px;
 }
