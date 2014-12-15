@@ -1,10 +1,6 @@
 body{
-	width: 960px;
-	padding-top: 75px;
-	padding-left: 15%;
 	background-image: url("images/petite-page.png");
-  background-repeat: repeat;
-	border: solid 1px white;
+	background-repeat: repeat;
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
@@ -13,11 +9,17 @@ h1, h2, h3, h4, h5, h6, p, li {
 }
 
 div#main-container {
+	border: solid 1px white;
+	margin-top: 75px;
+	width: 960px;
 	background-color: white;
 	border: solid 1px black;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header a#deft {
