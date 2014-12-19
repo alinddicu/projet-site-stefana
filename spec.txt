@@ -1,0 +1,16 @@
+Dimensions : 550px de largeur et 350px de hauteur au centre en bas du main de la page
+
+d’accueil.
+
+? Couleurs : 
+
+o Le cadre du diaporama est en bleu (#252A47), mais en transparence, tout 
+
+o Le titre est en bleu (#252A47).
+
+o Le nom des partenaires apparaît en blanc (#FFFFFF).
+
+comme le cadre d’affiche du nom des partenaires et les flèches de direction.
+550 pe 350 este practic cutia in care tre plasate imaginile
+ca inmacheta
+da ..ca sunt multi parteneri

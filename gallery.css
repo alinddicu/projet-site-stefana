@@ -1,0 +1,67 @@
+h1, h2, h3, h4, h5, h6, p, li {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#gallery {
+	display: block;
+	border: solid 2px #252A47;
+	height: 350px;
+	width: 550px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+div#gallery button {
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+div#gallery button#previous {
+	float: left;
+	margin-top: 140px;
+	margin-left: 10px;
+}
+
+div#gallery button#next {
+	float: right;
+	margin-top: 140px;
+	margin-right: 10px;
+}
+
+div#image-box {
+	display: block;
+	height: 192px;
+}
+
+div#gallery img#image {
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.clear {
+	clear: both;
+}
+
+div#gallery p {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+div#gallery p#title {
+	height: 23px;
+	padding-top: 5px;
+}
+
+div#gallery p#description {
+	margin-top: 87px;
+	height: 43px;
+	color: #ffffff;
+	background-color: rgb(125, 124, 143);
+}
