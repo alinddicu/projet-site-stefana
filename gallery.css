@@ -60,8 +60,10 @@ div#gallery p#title {
 }
 
 div#gallery p#description {
-	margin-top: 87px;
+	position: fixed;
+	top: 317px;
 	height: 43px;
+	width: 550px;
 	color: #ffffff;
 	background-color: rgb(125, 124, 143);
 }

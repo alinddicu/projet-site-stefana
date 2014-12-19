@@ -9,9 +9,9 @@
 			<p id="title">Partenaires au fil des années<p>
 			<button id="previous" data-bind="click: prev">&#9664</button>
 			<button id="next" data-bind="click: next">&#9658</button>
-			<div id="image-box">
+			<div id="image-box" data-bind="attr{style: mainImage().style}">
 			<!-- ko with: mainImage -->
-				<img id="image" class="centered" data-bind="attr{src: src, alt: alt, title: title, width: width, height: height}">
+				<img id="image" class="centered" data-bind="attr{src: src, alt: alt, title: title, width: width, height: height}" />
 			<!-- /ko -->
 			</div>
 			<div class = "clear"></div>
